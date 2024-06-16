@@ -27,7 +27,7 @@ public class Store {
     private String storeContactNo;
     @Column(name = "store_email_address")
     private String storeEmailAddress;
-    @Column(name = "established_dt")
+    @Column(name = "store_established_dt")
     private LocalDate establishedDate;
     @Column(name = "open_hours")
     private LocalTime openHours;
